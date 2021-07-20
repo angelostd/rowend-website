@@ -1,0 +1,263 @@
+html {
+    font-size: 16px;
+    font-family: Arial;
+    color: black;
+    background-color: #eee;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.header,
+.footer {
+    background-color: #111;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header .title-content {
+    font-weight: 100;
+    margin: 0;
+    padding-left: 4.5em;
+    padding-top: 1%;
+    padding-bottom: .5em;
+}
+
+.header .menu-button {
+    background-color: #fff;
+    display: inline-block;
+    font-weight: 900;
+    list-style: none;
+    margin-bottom: .5em;
+    margin-left: .5em;
+    padding: .5em;
+    border-radius: 10px;
+}
+
+.header .menu-button a{
+    text-decoration: none;
+    color:#111;
+}
+
+.header .menu-button a:hover{
+    color:#fff;
+}
+
+.header .menu-button:active {
+    transform: scale(.8)
+}
+
+.header .menu-button:hover {
+    background-color: #111;
+    outline: 1px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.header .menu-button:first-child {
+    margin-left: 6.5em;
+}
+
+.second-header .layout h2{
+    margin: 0;
+    margin-left: 6em;
+    font-weight:700;
+    padding: auto 0;
+    letter-spacing: .2vw;
+}
+
+.second-header .layout{
+    display:inline-block;
+    width: 100%;
+    height: 2.2em;
+    background-color:#111;
+    color:#fff;
+}
+
+.wrap {
+    margin: 0;
+}
+
+.main{
+    width: 100%;
+    font-weight: 400;
+}
+
+.main .main-text{
+    padding-top: 2em;
+    padding-left: 6em;    
+    margin: 0;
+}
+
+.footer {
+    width: 100%;
+    height: 5%;
+    position: sticky;
+    top: 100%;
+    padding: .5em 0;
+}
+
+.footer .footer-text {
+    display: inline;
+    margin:0;
+    padding-top: .5em;
+    padding-left: .5em;
+}
+
+.footer .footer-box {
+    width: 15px;
+    height: 15px;
+    display:inline-block;
+    margin-top: .5em;
+    background-image: url(../assets/images/copyright.png);
+    background-size: contain;
+}
+
+.footer .footer-box::after {
+    width: 150px;
+    font-size: .8rem;
+    display:inline-block;
+    margin-left: 1.5em;;
+    content: '2013-2022';
+}
+
+.contact-box {
+    border: 3px solid #111;
+    border-radius: 5px;
+    margin-top: .5em;
+    margin-left: 8em;
+    margin-right: 25%;
+    padding: .5em;
+}
+
+.contact-box .contact-type {
+    font-weight: bold;
+    margin: 0;
+    padding: .5em;
+    border-bottom: 2px dotted #333;   
+}
+
+.contact-box .contact-type:last-child {
+    padding-top: 10px;
+    border-bottom: 2px dotted #eee;
+}
+
+.contact-box .contact-text a{
+    background-color: #111;
+    text-decoration: none;
+    padding: .2em;
+    border-radius: 5px;
+    color: #fff;
+    font-weight:100;
+}
+
+.contact-box .contact-text a:hover{
+    background-color: #eee;
+    color: #111;
+    outline:auto;
+}
+
+.table {
+    display: block;
+    border: 2px solid #111;
+    border-radius: 5px;
+    margin:.5em auto;
+    width:50vw;
+}
+
+.table h2{
+    display: inline-block;
+}
+
+.table-header {
+    width: 100%;
+    background-color:#111;
+    color:#fff;
+    margin:0;
+    font-weight:100;
+    padding:0.5em;
+}
+
+.table .icon-box {
+    display: inline-block;
+    position: relative;
+    top: .5em;
+    left: .5em;
+    width: 48px;
+    height: 48px;
+    border: 1px solid #111;
+    background-color:#fff;
+    border-radius: 50px
+}
+
+.table .icon-box .icon-box-lang {
+    position: relative;
+    top: .3em;
+    left: .4em;
+    width: 24px;
+    height: 24px;
+    background-image: url(../assets/images/lang.png);
+    background-size: contain;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+.table .icon-box .icon-box-web {
+    position: relative;
+    top: .4em;
+    left: .4em;
+    width: 24px;
+    height: 24px;
+    background-image: url(../assets/images/web.png);
+    background-size: contain;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+.table .icon-box .icon-box-databases {
+    position: relative;
+    top: .4em;
+    left: .4em;
+    width: 24px;
+    height: 24px;
+    background-image: url(../assets/images/databases.png);
+    background-size: contain;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+.table .icon-box .icon-box-systems {
+    position: relative;
+    top: .4em;
+    left: .4em;
+    width: 24px;
+    height: 24px;
+    background-image: url(../assets/images/systems.png);
+    background-size: contain;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+.table .icon-box .icon-box-other {
+    position: relative;
+    top: .4em;
+    left: .4em;
+    width: 24px;
+    height: 24px;
+    background-image: url(../assets/images/other.png);
+    background-size: contain;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
