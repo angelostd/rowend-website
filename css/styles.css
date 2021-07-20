@@ -173,7 +173,8 @@ body {
 }
 
 .table h2{
-    display: inline-block;
+    display: flex;
+    align-items: center;
 }
 
 .table-header {
@@ -188,8 +189,7 @@ body {
 .table .icon-box {
     display: inline-block;
     position: relative;
-    top: .5em;
-    left: .5em;
+    left: .5em;;
     width: 48px;
     height: 48px;
     border: 1px solid #111;
@@ -199,7 +199,7 @@ body {
 
 .table .icon-box .icon-box-lang {
     position: relative;
-    top: .3em;
+    top: .4em;
     left: .4em;
     width: 24px;
     height: 24px;
@@ -212,8 +212,8 @@ body {
 
 .table .icon-box .icon-box-web {
     position: relative;
-    top: .4em;
-    left: .4em;
+    top: .425em;
+    left: .45em;
     width: 24px;
     height: 24px;
     background-image: url(../assets/images/web.png);
@@ -226,7 +226,7 @@ body {
 .table .icon-box .icon-box-databases {
     position: relative;
     top: .4em;
-    left: .4em;
+    left: .475em;
     width: 24px;
     height: 24px;
     background-image: url(../assets/images/databases.png);
@@ -238,8 +238,8 @@ body {
 
 .table .icon-box .icon-box-systems {
     position: relative;
-    top: .4em;
-    left: .4em;
+    top: .425em;
+    left: .45em;
     width: 24px;
     height: 24px;
     background-image: url(../assets/images/systems.png);
@@ -251,8 +251,8 @@ body {
 
 .table .icon-box .icon-box-other {
     position: relative;
-    top: .4em;
-    left: .4em;
+    top: .45em;
+    left: .45em;
     width: 24px;
     height: 24px;
     background-image: url(../assets/images/other.png);
