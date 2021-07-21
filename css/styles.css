@@ -7,7 +7,6 @@ html {
 
 body {
     margin: 0;
-    padding: 0;
     min-height: 100vh;
 }
 
@@ -79,6 +78,17 @@ body {
     height: 2.2em;
     background-color:#111;
     color:#fff;
+}
+
+.sticky-header {
+    position:fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+}
+
+.sticky-header + .main {
+    padding-top: 150px;
 }
 
 .wrap {
